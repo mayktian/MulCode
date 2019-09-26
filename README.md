@@ -1,3 +1,3 @@
 # MulCode
 
-We will release the original LM as well as the source code when it's sought out. 
+We are currently sorting out the original LM as well as the source code.
