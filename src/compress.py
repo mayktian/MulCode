@@ -65,5 +65,5 @@ model.init()
 if torch.cuda.is_available():
     model = model.cuda()
 _,rec_mat,compression_rate = model._train(matrix,freq,index,64,num_epochs=args.epochs)
-output_fn = data + "/compressed_matrix/%s.%s_%.5f.npy" % (fn,setting_str1,compression_rate)
+output_fn = data + "/compressed_matrix/%s.%s_%.5f.npy" % (fn,setting_str,compression_rate)
 np.save(open(output_fn,'w'),rec_mat)
