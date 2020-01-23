@@ -1,4 +1,7 @@
 # MulCode
+
+You'll need to have pytorch and tensorflow installed.
+
 To evaluate the compressed LM, run
 
 python src/evalauate_ptb_lm.py --data $path_to_ptb --large True/False --W1 $path_to_W1 --W2 $path_to_W2(softmax)
